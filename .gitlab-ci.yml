@@ -1,0 +1,9 @@
+pages:
+  stage: deploy
+  script:
+    - echo "Deploying Archi HTML export to GitLab Pages"
+  artifacts:
+    paths:
+      - did-public
+  only:
+    - main
